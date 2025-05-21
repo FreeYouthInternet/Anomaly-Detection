@@ -22,7 +22,7 @@ This project is a web-based anomaly detection system that uses machine learning 
 
 ## 🔧 Setup Instructions
 1. Clone this repo:
-https://github.com/SyntaxError-Natsu/Anomaly-detection.git
+
 cd Anomaly-detection
 
 2. Install dependencies:
