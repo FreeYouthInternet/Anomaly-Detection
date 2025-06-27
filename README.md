@@ -1,35 +1,49 @@
-# AI-based Anomaly Detection in Cybersecurity Networks
+🔒 AI-based Anomaly Detection in Cybersecurity Networks
+This project is a web-based anomaly detection system that uses machine learning algorithms like Isolation Forest and Logistic Regression to detect suspicious activity in network traffic. Built using Python and Flask for real-time cybersecurity monitoring and threat detection.
 
-## 📌 Overview
-This project is a web-based anomaly detection system that uses machine learning algorithms like **Isolation Forest** and **Logistic Regression** to detect suspicious activity in network traffic. Built using Python and Flask.
+📌 Features
+🔍 Real-time Network Monitoring: Input network data or upload logs for instant analysis
+🤖 Machine Learning Detection: Advanced ML algorithms for accurate anomaly identification
+📊 Interactive Dashboard: Visualize alerts, results, and network statistics
+⚡ Lightweight Architecture: Fast and efficient Flask-based web application
+📈 Data Visualization: Comprehensive charts and graphs for threat analysis
+🚨 Alert System: Real-time notifications for detected anomalies
+💠 ML Techniques Used
+Unsupervised Learning:
 
-## 💡 Features
-- Real-time input of network data (or upload logs)
-- Detection using trained ML models
-- Dashboard to visualize alerts and results
-- Lightweight Flask web app
+Isolation Forest: Advanced anomaly detection for identifying outliers in network behavior
+Supervised Learning:
 
-## ⚙️ ML Techniques Used
-- **Isolation Forest**: For unsupervised anomaly detection
-- **Logistic Regression**: For binary classification of network events
+Logistic Regression: Binary classification for categorizing network events as normal or suspicious
+🚀 Tech Stack
+Backend:
 
-## 🚀 Tech Stack
-- Python
-- Flask
-- Scikit-learn
-- HTML/CSS (Bootstrap or custom)
-- Optional: SQLite/PostgreSQL for logs
+Python
+Flask
+Scikit-learn
+Pandas & NumPy
+Frontend:
 
-## 🔧 Setup Instructions
-1. Clone this repo:
-   https://github.com/FreeYouthInternet/Anomaly-Detection.git
+HTML/CSS
+Bootstrap
+JavaScript
+Database:
+
+SQLite/PostgreSQL (for logs storage)
+🔧 Getting Started
+Prerequisites
+Python 3.8 or higher
+pip package manager
+Git
+Installation
+1. Clone the repository:
+
+git clone https://github.com/SyntaxError-Natsu/Anomaly-detection.git
 cd Anomaly-detection
-
 2. Install dependencies:
+
 pip install -r requirements.txt
+3. Prepare the ML models:
 
-3. Run the prepare model file:
 python prepare_model.py
-
-4. Run the Flask app:
-python app.py
+Access the application at http://localhost:5000
